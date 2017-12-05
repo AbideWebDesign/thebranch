@@ -2860,3 +2860,5 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 .padding-vertical-two { padding-top: 2em; padding-bottom: 2em; }
 
 .padding-vertical-four { padding-top: 4em; padding-bottom: 4em; }
+
+* { font-family: "proxima-nova", Helvetica, Arial, sans-serif; }

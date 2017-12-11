@@ -12,7 +12,7 @@ get_header();
 $preacher = get_field("preacher");
 
 // Series Object
-$series = get_field("series");
+$series = get_field("sermon_series");
 
 // Scripture Object
 $scripture = get_field("scripture");
@@ -22,8 +22,9 @@ $topics = get_field("topics");
 
 // Others
 $date = get_field("date");
+var_dump($date);
+
 $audio = get_field("audio_file");
-		
 ?>
 
 <div class="container">
